@@ -1,0 +1,20 @@
+Just a quick project I did myself over Winter Break. I wasn't really expecting this to run on any computer other than my own,
+so there could be some slight hickups getting it to run. I was pretty loose in my style, but I try to comment frequently so
+hopefully nothing in here is too hard to follow. 
+
+Notes: 
+      I made it so that every constant that is declared with 'const' in main is somehow directly integral to the games 
+      mechanics, and therefore should not be changed. However, every constant declared with a #define pre-processor 
+      directive I made control tweakable aspects of the game, such as SCORE_PER_COMPLETE_ROW or even the default orientation 
+      each shape will spawn in (note that the straight shape is a special case). Use the #define directives to controll screen
+      height and width as needed per console dimensions (note that some tweaking may be involved running this at 80x24).
+      
+      The actual grid size of real "tetris" is much smaller than my game's grid size
+      
+      I wrote this on a Macbook Pro using XCode, so there may be some mac-only colors I used. If colors aren't working, tweak
+      the color pairs. 
+      
+      Since the terminal on my laptop is tweakable, I run my window at 158x79 (about fullscreen on my 13" screen) and I also 
+      set my font so that each character is wider than normal. 
+      
+      
